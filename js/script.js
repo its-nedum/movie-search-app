@@ -134,7 +134,7 @@ const displayMovies = (movies = []) => {
         <a href="#/" class="card-button card-button-year">
           ${movie.Year}
         </a>
-        <a href=${`./details.html?${movie.imdbID}`} class="card-button card-button-link">
+        <a href=${`./single.html?i=${movie.imdbID}`} class="card-button card-button-link">
           More info
           <span class="card-button-icon">
             <svg
